@@ -10,6 +10,8 @@ namespace RestaurantApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hell SIT.1/1");
+            Console.WriteLine("Week 2");
         }
     }
 }
