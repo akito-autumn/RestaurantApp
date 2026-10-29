@@ -17,7 +17,13 @@ namespace RestaurantApp
                 new Restaurant(3, "Din Tai Fung", "Taiwanese Cuisine", 4.7)
             };
             Console.WriteLine("==========Restaurant List==========");
-            Console.WriteLine("ID", "Name", "Type", "Rating");
+            Console.WriteLine("ID ,Name ,Type ,Rating");
+            Console.WriteLine("-----------------------------------");
+
+            foreach (Restaurant Restaurant in restaurants)
+            {
+                Console.WriteLine($"{Restaurant.Id}, {Restaurant.Name}, {Restaurant.Type}, {Restaurant.Rating}");
+            }
         }
         public class Restaurant
         {
